@@ -1,0 +1,1228 @@
+INFO 2024-12-03 13:31:49,238 basehttp "POST /15/delete/ HTTP/1.1" 302 0
+INFO 2024-12-03 13:31:49,256 basehttp "GET / HTTP/1.1" 200 3623
+INFO 2024-12-03 13:32:46,838 autoreload C:\Users\User\Desktop\uu\diplom_django\sport_management\athletes\views.py changed, reloading.
+INFO 2024-12-03 13:32:47,343 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 13:34:07,234 autoreload C:\Users\User\Desktop\uu\diplom_django\sport_management\athletes\views.py changed, reloading.
+INFO 2024-12-03 13:34:07,745 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 13:36:00,454 autoreload C:\Users\User\Desktop\uu\diplom_django\sport_management\athletes\views.py changed, reloading.
+INFO 2024-12-03 13:36:00,972 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-03 13:36:04,036 log Internal Server Error: /14/delete/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\views\generic\edit.py", line 258, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\sport_management\athletes\views.py", line 50, in form_valid
+    athlete_name = form.cleaned_data['name']
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: 'name'
+ERROR 2024-12-03 13:36:04,039 basehttp "POST /14/delete/ HTTP/1.1" 500 81766
+INFO 2024-12-03 13:37:15,303 autoreload C:\Users\User\Desktop\uu\diplom_django\sport_management\athletes\views.py changed, reloading.
+INFO 2024-12-03 13:37:15,803 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 13:39:05,434 autoreload C:\Users\User\Desktop\uu\diplom_django\sport_management\athletes\views.py changed, reloading.
+INFO 2024-12-03 13:39:05,946 autoreload Watching for file changes with StatReloader
+INFO 2024-12-03 13:39:09,732 basehttp "GET / HTTP/1.1" 200 3623
+INFO 2024-12-03 13:39:11,738 basehttp "POST /14/delete/ HTTP/1.1" 302 0
+INFO 2024-12-03 13:39:11,754 basehttp "GET / HTTP/1.1" 200 3220
+INFO 2024-12-03 13:40:18,658 basehttp "GET / HTTP/1.1" 200 3220
+INFO 2024-12-03 13:40:21,018 basehttp "POST /4/delete/ HTTP/1.1" 302 0
+INFO 2024-12-03 13:40:21,033 basehttp "GET / HTTP/1.1" 200 2823
+INFO 2024-12-03 13:40:51,815 basehttp "GET /5/update/ HTTP/1.1" 200 1008
+INFO 2024-12-03 13:40:59,040 views Спортсмен Sergey Ustugov был успешно обновлен.
+INFO 2024-12-03 13:40:59,050 basehttp "POST /5/update/ HTTP/1.1" 302 0
+INFO 2024-12-03 13:40:59,064 basehttp "GET / HTTP/1.1" 200 2823
+INFO 2024-12-03 13:41:27,007 basehttp "GET /create/ HTTP/1.1" 200 750
+INFO 2024-12-03 13:42:16,951 views Спортсмен Elmira Gayanova был успешно создан.
+INFO 2024-12-03 13:42:16,964 basehttp "POST /create/ HTTP/1.1" 302 0
+INFO 2024-12-03 13:42:16,979 basehttp "GET / HTTP/1.1" 200 3224
+INFO 2024-12-06 23:09:45,574 autoreload Watching for file changes with StatReloader
+INFO 2024-12-06 23:17:42,322 autoreload Watching for file changes with StatReloader
+INFO 2024-12-06 23:17:46,816 basehttp "GET / HTTP/1.1" 200 3224
+INFO 2024-12-06 23:46:47,912 autoreload C:\Users\User\Desktop\uu\diplom_django\sport_management\athletes\views.py changed, reloading.
+INFO 2024-12-06 23:46:48,782 autoreload Watching for file changes with StatReloader
+INFO 2024-12-06 23:54:37,991 autoreload Watching for file changes with StatReloader
+INFO 2024-12-06 23:55:31,152 autoreload Watching for file changes with StatReloader
+INFO 2024-12-06 23:58:29,557 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-06 23:58:33,806 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1035, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'bootstrap5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1097, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'bootstrap5' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2024-12-06 23:58:33,814 basehttp "GET / HTTP/1.1" 500 159157
+INFO 2024-12-06 23:59:23,823 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-06 23:59:26,982 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1035, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'bootstrap'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1097, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'bootstrap' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2024-12-06 23:59:26,989 basehttp "GET / HTTP/1.1" 500 159137
+INFO 2024-12-07 00:08:55,942 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 00:09:02,515 basehttp "GET /competitions HTTP/1.1" 301 0
+INFO 2024-12-07 00:09:02,540 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+ERROR 2024-12-07 00:09:04,717 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1035, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'bootstrap'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1097, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'bootstrap' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2024-12-07 00:09:04,726 basehttp "GET / HTTP/1.1" 500 150289
+INFO 2024-12-07 00:10:43,427 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+ERROR 2024-12-07 00:10:44,962 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1035, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'bootstrap'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1097, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'bootstrap' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2024-12-07 00:10:44,966 basehttp "GET / HTTP/1.1" 500 151422
+INFO 2024-12-07 00:11:47,920 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 00:12:23,000 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 00:12:25,299 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1035, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'bootstrap'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1097, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'bootstrap' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2024-12-07 00:12:25,306 basehttp "GET / HTTP/1.1" 500 151862
+ERROR 2024-12-07 00:12:28,497 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1035, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'bootstrap'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1097, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'bootstrap' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2024-12-07 00:12:28,502 basehttp "GET / HTTP/1.1" 500 151698
+INFO 2024-12-07 00:12:31,880 basehttp "GET /athlete-competitions/ HTTP/1.1" 200 2508
+ERROR 2024-12-07 00:12:34,515 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1035, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'bootstrap'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1097, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'bootstrap' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2024-12-07 00:12:34,520 basehttp "GET / HTTP/1.1" 500 151725
+INFO 2024-12-07 00:45:43,379 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 00:46:02,951 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 00:47:53,659 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 00:49:43,881 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 00:51:15,432 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 00:51:20,569 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+ERROR 2024-12-07 00:51:22,733 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1035, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'bootstrap'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1097, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'bootstrap' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2024-12-07 00:51:22,752 basehttp "GET / HTTP/1.1" 500 150939
+INFO 2024-12-07 00:58:49,172 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 00:58:53,939 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+ERROR 2024-12-07 00:58:55,676 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1035, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'bootstrap'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1097, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'bootstrap' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+i18n
+l10n
+log
+static
+tz
+ERROR 2024-12-07 00:58:55,685 basehttp "GET / HTTP/1.1" 500 151225
+INFO 2024-12-07 00:59:31,661 autoreload C:\Users\User\Desktop\uu\diplom_django\sport_management\sport_management\settings.py changed, reloading.
+INFO 2024-12-07 00:59:32,206 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 00:59:36,076 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+ERROR 2024-12-07 00:59:36,868 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1035, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'bootstrap'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1097, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'bootstrap' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+django_bootstrap5
+i18n
+l10n
+log
+static
+tz
+ERROR 2024-12-07 00:59:36,876 basehttp "GET / HTTP/1.1" 500 151629
+INFO 2024-12-07 01:01:22,102 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 01:01:24,909 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+INFO 2024-12-07 01:01:29,707 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+ERROR 2024-12-07 01:01:31,332 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1035, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'bootstrap5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1097, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'bootstrap5' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+django_bootstrap5
+i18n
+l10n
+log
+static
+tz
+ERROR 2024-12-07 01:01:31,342 basehttp "GET / HTTP/1.1" 500 151649
+INFO 2024-12-07 01:02:12,792 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 01:02:15,154 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1035, in find_library
+    return parser.libraries[name]
+           ~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'django-bootstrap5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1097, in load
+    lib = find_library(parser, name)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 1037, in find_library
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'django-bootstrap5' is not a registered tag library. Must be one of:
+admin_list
+admin_modify
+admin_urls
+cache
+django_bootstrap5
+i18n
+l10n
+log
+static
+tz
+ERROR 2024-12-07 01:02:15,161 basehttp "GET / HTTP/1.1" 500 151918
+INFO 2024-12-07 01:06:44,974 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 01:06:49,350 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+INFO 2024-12-07 01:06:50,617 basehttp "GET / HTTP/1.1" 200 3226
+INFO 2024-12-07 01:08:36,559 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 01:08:41,924 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\library.py", line 130, in compile_func
+    args, kwargs = parse_bits(
+                   ^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\library.py", line 364, in parse_bits
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: 'bootstrap_form' did not receive value(s) for the argument(s): 'form'
+ERROR 2024-12-07 01:08:41,933 basehttp "GET / HTTP/1.1" 500 167006
+INFO 2024-12-07 01:09:05,282 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 01:09:11,553 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+ERROR 2024-12-07 01:09:13,185 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\library.py", line 237, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django_bootstrap5\templatetags\django_bootstrap5.py", line 318, in bootstrap_form
+    return render_form(form, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django_bootstrap5\forms.py", line 20, in render_form
+    return renderer_cls(form, **kwargs).render()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django_bootstrap5\renderers.py", line 158, in __init__
+    raise TypeError('Parameter "form" should contain a valid Django Form.')
+TypeError: Parameter "form" should contain a valid Django Form.
+ERROR 2024-12-07 01:09:13,197 basehttp "GET / HTTP/1.1" 500 135055
+INFO 2024-12-07 01:10:59,900 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 01:11:03,909 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+ERROR 2024-12-07 01:11:05,326 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\library.py", line 237, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django_bootstrap5\templatetags\django_bootstrap5.py", line 318, in bootstrap_form
+    return render_form(form, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django_bootstrap5\forms.py", line 20, in render_form
+    return renderer_cls(form, **kwargs).render()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django_bootstrap5\renderers.py", line 158, in __init__
+    raise TypeError('Parameter "form" should contain a valid Django Form.')
+TypeError: Parameter "form" should contain a valid Django Form.
+ERROR 2024-12-07 01:11:05,335 basehttp "GET / HTTP/1.1" 500 135259
+INFO 2024-12-07 01:15:10,282 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-07 01:15:13,298 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 1008, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\defaulttags.py", line 243, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\library.py", line 237, in render
+    output = self.func(*resolved_args, **resolved_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django_bootstrap5\templatetags\django_bootstrap5.py", line 318, in bootstrap_form
+    return render_form(form, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django_bootstrap5\forms.py", line 20, in render_form
+    return renderer_cls(form, **kwargs).render()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django_bootstrap5\renderers.py", line 158, in __init__
+    raise TypeError('Parameter "form" should contain a valid Django Form.')
+TypeError: Parameter "form" should contain a valid Django Form.
+ERROR 2024-12-07 01:15:13,304 basehttp "GET / HTTP/1.1" 500 135812
+INFO 2024-12-07 01:19:27,312 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 01:19:30,685 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+INFO 2024-12-07 01:19:31,863 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+INFO 2024-12-07 01:19:32,191 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+INFO 2024-12-07 01:19:32,358 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+INFO 2024-12-07 01:19:33,467 basehttp "GET / HTTP/1.1" 200 3800
+INFO 2024-12-07 01:20:16,748 autoreload Watching for file changes with StatReloader
+INFO 2024-12-07 01:20:22,848 basehttp "GET / HTTP/1.1" 200 3401
+INFO 2024-12-07 01:20:24,951 basehttp "POST /5/delete/ HTTP/1.1" 302 0
+INFO 2024-12-07 01:20:24,966 basehttp "GET / HTTP/1.1" 200 2978
+INFO 2024-12-13 06:14:25,999 autoreload Watching for file changes with StatReloader
+INFO 2024-12-13 06:17:50,521 autoreload Watching for file changes with StatReloader
+INFO 2024-12-13 06:18:11,337 autoreload C:\Users\User\Desktop\uu\diplom_django\sport_management\sport_management\settings.py changed, reloading.
+INFO 2024-12-13 06:18:12,011 autoreload Watching for file changes with StatReloader
+INFO 2024-12-13 06:18:18,396 basehttp "GET / HTTP/1.1" 200 2826
+WARNING 2024-12-13 06:18:18,657 log Not Found: /favicon.ico
+WARNING 2024-12-13 06:18:18,657 basehttp "GET /favicon.ico HTTP/1.1" 404 3905
+INFO 2024-12-13 06:18:23,199 basehttp "GET /athlete-competitions/ HTTP/1.1" 200 2118
+INFO 2024-12-13 06:18:26,638 basehttp "GET / HTTP/1.1" 200 2826
+INFO 2024-12-13 06:18:28,385 basehttp "GET /competitions HTTP/1.1" 301 0
+INFO 2024-12-13 06:18:28,402 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+INFO 2024-12-13 06:18:29,784 basehttp "GET /competitions/create/ HTTP/1.1" 200 1066
+INFO 2024-12-13 06:21:19,803 autoreload Watching for file changes with StatReloader
+INFO 2024-12-13 06:22:02,592 autoreload C:\Users\User\Desktop\uu\diplom_django\sport_management\athletes\views.py changed, reloading.
+INFO 2024-12-13 06:22:03,128 autoreload Watching for file changes with StatReloader
+INFO 2024-12-13 06:22:42,864 autoreload C:\Users\User\Desktop\uu\diplom_django\sport_management\athletes\views.py changed, reloading.
+INFO 2024-12-13 06:22:43,388 autoreload Watching for file changes with StatReloader
+INFO 2024-12-13 06:22:45,336 basehttp "GET / HTTP/1.1" 200 2826
+ERROR 2024-12-13 06:22:47,481 log Internal Server Error: /create/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\uu\diplom_django\.venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: athletes/athlete_form.html
+ERROR 2024-12-13 06:22:47,484 basehttp "GET /create/ HTTP/1.1" 500 81329
+INFO 2024-12-13 09:46:42,356 autoreload Watching for file changes with StatReloader
+INFO 2024-12-13 09:46:47,157 basehttp "GET / HTTP/1.1" 200 2826
+WARNING 2024-12-13 09:46:47,297 log Not Found: /favicon.ico
+WARNING 2024-12-13 09:46:47,298 basehttp "GET /favicon.ico HTTP/1.1" 404 3905
+INFO 2024-12-13 09:46:51,052 basehttp "GET /athlete-competitions/ HTTP/1.1" 200 2118
+INFO 2024-12-13 09:46:53,683 basehttp "GET / HTTP/1.1" 200 2826
+INFO 2024-12-13 09:46:55,217 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+INFO 2024-12-13 09:50:34,266 basehttp "GET /competitions/create/ HTTP/1.1" 200 1066
+INFO 2024-12-13 09:50:36,986 basehttp "GET / HTTP/1.1" 200 2826
+INFO 2024-12-13 09:50:38,794 basehttp "GET /create/ HTTP/1.1" 200 609
+INFO 2024-12-15 00:37:12,893 autoreload Watching for file changes with StatReloader
+INFO 2024-12-15 00:37:17,116 basehttp "GET / HTTP/1.1" 200 2826
+WARNING 2024-12-15 00:37:17,290 log Not Found: /favicon.ico
+WARNING 2024-12-15 00:37:17,291 basehttp "GET /favicon.ico HTTP/1.1" 404 3905
+INFO 2024-12-15 00:37:49,478 basehttp "GET /competitions HTTP/1.1" 301 0
+INFO 2024-12-15 00:37:49,494 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+INFO 2024-12-15 00:38:11,500 basehttp "GET /athlete-competitions/ HTTP/1.1" 200 2118
+INFO 2024-12-15 00:38:39,273 basehttp "GET / HTTP/1.1" 200 2826
+INFO 2024-12-15 00:38:42,180 basehttp "GET /create/ HTTP/1.1" 200 609
+INFO 2024-12-15 00:39:10,246 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+INFO 2024-12-15 00:39:10,788 basehttp "GET / HTTP/1.1" 200 2826
+INFO 2024-12-15 00:39:12,570 basehttp "GET /create/ HTTP/1.1" 200 609
+INFO 2024-12-15 00:39:15,582 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+INFO 2024-12-15 00:39:16,885 basehttp "GET /competitions/create/ HTTP/1.1" 200 1066
+INFO 2024-12-15 00:42:10,300 autoreload C:\Users\User\Desktop\uu\diplom_django\sport_management\athletes\views.py changed, reloading.
+INFO 2024-12-15 00:42:10,802 autoreload Watching for file changes with StatReloader
+INFO 2024-12-15 00:42:28,923 autoreload C:\Users\User\Desktop\uu\diplom_django\sport_management\athletes\views.py changed, reloading.
+INFO 2024-12-15 00:42:29,492 autoreload Watching for file changes with StatReloader
+ERROR 2024-12-15 00:42:36,953 basehttp "GET /competitions/create/ HTTP/1.1" 500 59
+INFO 2024-12-15 00:45:03,950 autoreload Watching for file changes with StatReloader
+INFO 2024-12-15 00:45:06,622 basehttp "GET / HTTP/1.1" 200 2826
+INFO 2024-12-15 00:45:07,863 basehttp "GET /create/ HTTP/1.1" 200 609
+INFO 2024-12-15 00:45:11,310 basehttp "GET /competitions/ HTTP/1.1" 200 2174
+INFO 2024-12-15 00:45:12,127 basehttp "GET /competitions/create/ HTTP/1.1" 200 1066

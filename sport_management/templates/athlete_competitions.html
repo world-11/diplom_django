@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Спортсмены и Соревнования</title>
+</head>
+<body>
+<h1>Спортсмены и Соревнования</h1>
+<a class="nav-link" href='/'>Спортсмены</a> |  <a class="nav-link" href='/competitions'>Соревнования</a>
+<br>
+<br>
+<br>
+<table border="1">
+    <tr>
+        <th>Имя Спортсмена</th>
+        <th>Возраст</th>
+        <th>Соревнования</th>
+    </tr>
+    {% for athlete in athletes %}
+    <tr>
+        <td>{{ athlete.name }}</td>
+        <td>{{ athlete.age }}</td>
+        <td>
+            <ul>
+                {% for comp in athlete.competitions.all %}
+                <li>{{ comp.title }} ({{ comp.date }})</li>
+                {% empty %}
+                <li>Нет участия в соревнованиях.</li>
+                {% endfor %}
+            </ul>
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>

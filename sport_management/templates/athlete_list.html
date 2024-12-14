@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список спортсменов</title>
+</head>
+<body>
+<h1>Спортсмены</h1>
+<a class="nav-link" href='/competitions'>Соревнования</a> |  <a class="nav-link" href='/athlete-competitions/'>Участие</a>
+<br>
+<br>
+<br>
+<a href="{% url 'athlete-create' %}">Добавить спортсмена</a>
+<ul>
+    {% for athlete in athletes %}
+    <li>
+        {{ athlete.name }} ({{ athlete.age }}) |
+        <a href="{% url 'athlete-update' athlete.pk %}">Редактировать</a> |
+        <form action="{% url 'athlete-delete' athlete.pk %}" method="post" style="display: inline;">
+            {% csrf_token %}
+            <button type="submit">Удалить</button>
+        </form>
+    </li>
+    {% endfor %}
+</ul>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список соревнований</title>
+</head>
+<body>
+<h1>Соревнования</h1>
+<a class="nav-link" href='/'>Спортсмены</a> |  <a class="nav-link" href='/athlete-competitions/'>Участие</a>
+<br>
+<br>
+<br>
+<a href="{% url 'competition-create' %}">Добавить соревнование</a>
+<ul>
+    {% for competition in competitions %}
+    <li>
+        {{ competition.title }} ({{ competition.date }}) |
+        <a href="{% url 'competition-update' competition.pk %}">Редактировать</a> |
+        <form action="{% url 'competition-delete' competition.pk %}" method="post" style="display: inline;">
+            {% csrf_token %}
+            <button type="submit">Удалить</button>
+        </form>
+    </li>
+    {% endfor %}
+</ul>
+</body>
+</html>
